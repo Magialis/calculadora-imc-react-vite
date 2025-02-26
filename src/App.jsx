@@ -14,7 +14,7 @@ function App() {
     setImc(resultado);
 
     const classificacao =
-      resultado < 1 ? 'Insira uma altura válida' :
+      resultado < 1 ? 'Insira um peso ou altura válidos' :
       resultado >= 1 && resultado < 18.5 ? 'Abaixo do peso' :
       resultado >= 18.5 && resultado <= 24.9 ? 'Peso normal' :
       resultado >= 25 && resultado <= 29.9 ? 'Sobrepeso' :
